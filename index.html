@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form | Ramsha Shamim</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="form__a">
+        <h2>Login</h2>
+        <div class="input-field">
+          <input type="text" required />
+          <label>Enter your email</label>
+        </div>
+        <div class="input-field">
+          <input type="password" required />
+          <label>Enter your password</label>
+        </div>
+        <div class="forget">
+          <label for="remember">
+            <input type="checkbox" id="remember" />
+            <p>Remember me</p>
+          </label>
+          <a href="#">Forgot password?</a>
+        </div>
+        <button type="submit">Log In</button>
+      </div>
+      <div class="form__b hidden">
+        <h2>Signup</h2>
+        <div class="input-field">
+          <input type="text" required />
+          <label>Enter your email</label>
+        </div>
+        <div class="input-field">
+          <input type="password" required />
+          <label>Enter your password</label>
+        </div>
+        <div class="forget">
+          <label for="remember">
+            <input type="checkbox" id="remember" />
+            <p>Remember me</p>
+          </label>
+          <a href="#">Forgot password?</a>
+        </div>
+        <button type="submit">Sign Up</button>
+      </div>
+      <div class="register">
+        <button id="toggleButton">Switch Form</button>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
